@@ -1,47 +1,66 @@
-.nav {
-    padding: 5px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pics {
+    height: 200px;
+    width: 200px;
+}
+
+.header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(67, 62, 62);
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: light;
 }
 
-.nav-title {
+.title {
     font-family: sans-serif;
-    font-size: x-large;
-    color: white;
-    padding-right: 800px;
+    color: darkslategray;
 }
 
-.nav-links {
-    list-style: none;
+.bernese {
     display: flex;
-    align-items: flex-end;
+    background-color: navy;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cyberpunk {
+    display: flex;
+    background-color: yellow;
+    margin: 30px;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-a {
-    margin: 20px;
+.deathwars {
+    display: flex;
+    background-color: navy;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
     font-family: sans-serif;
     font-weight: lighter;
-    text-decoration: none;
-    color: white;
+    color: lightgray;
 }
 
-.active {
-    margin: 20px;
+.octodex {
     font-family: sans-serif;
-    font-weight: bold;
-    color: white;
-}
-
-.btn {
-    display: inline-block;
-    padding: 5px 10px;
-    border: 10px black;
-    border-radius: 0px;
-    background-color: rgb(4, 152, 152);
-    color: white;
-    text-decoration: none;
-    box-shadow: 3px 3px black;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: lightskyblue;
 }
