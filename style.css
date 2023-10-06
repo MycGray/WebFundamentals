@@ -1,66 +1,97 @@
-*{
+* {
     margin: 0px;
-    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.pics {
+.banner {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skyblue {
+    /* flex: 1; */
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    height: 100px;
+    width: 650px;
+    background-color: rgb(7, 142, 183);
+}
+
+.white {
+    /* flex: 1; */
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: lightgray;
+    border-style: solid;
     height: 200px;
-    width: 200px;
+    width: 650px;
+    background-color: white;
 }
 
-.header {
+.profile {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-    font-size: 30px;
-    font-weight: light;
+    position: absolute;
+    top: 110px;
 }
 
-.title {
-    font-family: sans-serif;
-    color: darkslategray;
+.profile > img {
+    width: 75px;
+    margin-left: 25px;
+    border-radius: 50%;
+    border: -10px;
+    border: 2px;
+    border-color: lightgray;
+    border-style: solid;
 }
 
-.bernese {
+.name {
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.location {
     display: flex;
-    background-color: navy;
-    margin: 30px;
-    align-items: center;
-    justify-content: space-around;
+    font-size: x-large;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
-.cyberpunk {
+img {
+    width: 25px;
+}
+
+.titles {
+    background-color: white;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.slogan {
+    margin-left: 3px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.settings {
     display: flex;
-    background-color: yellow;
-    margin: 30px;
-    align-items: center;
-    justify-content: space-evenly;
+    margin-left: 10px;
 }
 
-.deathwars {
-    display: flex;
-    background-color: navy;
-    margin: 30px;
-    align-items: center;
-    justify-content: space-around;
+.settings > img {
+    width: 20px;
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h2 {
-    font-family: sans-serif;
-    font-weight: lighter;
-    color: lightgray;
-}
-
-.octodex {
-    font-family: sans-serif;
-    font-weight: lighter;
-    text-decoration: underline;
-    color: lightskyblue;
+.settings > a{
+    margin-left: 3px;
 }
